@@ -1,5 +1,5 @@
 <h1 align="center">CSE 405</h1>
-<p align="center"><strong>Remote GitHub repository for all CSE 405 course assignments</strong>
+<p align="center"><strong>Remote GitHub Repository for CSE 405 Course Assignments</strong>
 <br>By Alyssa Wilcox</p>
 <br/>
 <h2>About</h2>
