@@ -1,2 +1,1 @@
-# CSE-405
-Repository for all CSE 405 projects
+<h1 align="center>CSE 405</h1>
