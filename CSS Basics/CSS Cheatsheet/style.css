@@ -1,0 +1,296 @@
+/*Refers to everything, this
+is a reset*/
+/*
+*{
+	margin:0;
+	padding:0;
+}
+*/	
+
+/*External Method
+#externalMethod{color:green;}*/
+
+/*Style will apply to any link*/
+a{
+	/*Removes underline*/
+	text-decoration:none;
+	color:#000;
+}
+
+/*When hovering over a link, it will turn red*/
+a:hover{
+	color:red;
+}
+
+/*When you click on the link, it will turn green for a moment*/
+a:active{
+	color:green;
+}
+
+/*Changes the link color when it has been visited*/
+a:visited{
+	/*color:purple;*/
+}
+	
+/*Style will apply to whole body*/
+body{
+	/*Changes the background color of the body to light gray
+	#f4f4f4 is the hex number for light gray*/
+	background-color:#f4f4f4;
+	
+	/*Changes default color to gray*/
+	color:#555555;
+	
+	/*Changes the font of the body.
+	Changes to Arial, or to Helvetica if Arial is not available*/
+	font-family: Arial, Helvetica, sans-serif;
+	
+	/*Changes font size, default is 16px*/
+	font-size:16px;
+	
+	/*Changes the weight of the text, can use words or numbers
+	bold, normal, etc*/
+	font-weight:normal;
+	
+	/*Shorter way of doing above:
+	font: normal 16px Arial, Helvetica, sans-serif;*/
+	
+	/*Changes the space between the lines
+	Can be in em or px*/
+	line-height:1.6em;
+	
+	margin:0;
+}
+
+/*Style will apply to all containers*/
+.container{
+	/*Sets width of container
+	Can use pxl, but will not respond correctly to changing browswer size.
+	Use percentage instead*/
+	width:80%;
+	/*Puts even amount of margin on each side
+	margin = spacing around an element*/
+	margin:auto;
+}
+
+/*Style will apply to all buttons*/
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+}
+
+/*Clears any floats*/
+.clr{
+	clear:both;
+}
+
+/*Style for box-1 class*/
+.box-1{
+	/*Sets background to dark gray*/
+	background-color:#333333;
+	
+	/*Sets text color to white*/
+	color:#ffffff;
+	
+	/*Long method of setting border
+	border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;*/
+	/*Short method of setting border*/
+	border:5px red solid;
+	
+	/*Sets border width*/
+	border-width:3px;
+	
+	/*Sets bottom border width*/
+	border-bottom-width:10px;
+	
+	/*Sets style of top border*/
+	border-top-style:dotted;
+	
+	/*Overwrites previous*/
+	border:5px red solid;
+	
+	/*Long method of setting padding
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;*/
+	/*Shorter method of setting padding*/
+	padding: 20px;
+	
+	/*Top/bottom margin at 20px, left/right at 0*/
+	margin:20px 0;
+}
+
+/*To style any h1 that is within box-1*/
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border:3px dotted #ccc;
+	padding:20px;
+	margin:20px 0;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding: 10px;
+	/*Gives our border curved edges*/
+	border-radius:15px;
+}
+
+/*Style for h2 heading in categories division*/
+.categories h2{
+	text-align:center;
+}
+
+/*Style the unsorted list*/
+.categories ul{
+	padding:0;
+	padding-left:20px;
+	list-style:square;
+	list-style:none;
+}
+
+/*Style the list elements*/
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
+	/*Setting a background image, can be done in li or ul*/
+	list-style-image: url('images/check.png');
+}
+
+.myForm{
+	padding:20px;
+}
+
+.myForm .form-group{
+	padding-bottom: 15px;
+}
+
+.myForm label{
+	/*Label is normally inline, we can change it to be block
+	so that it will display on the next line*/
+	display:block;
+}
+
+/*Changes the padding and width of only the input, email, and textarea for the form.
+If it was just ".myForm input", all forms of input in our form would be impacted,
+this includes our button*/
+.myForm input[type="text"], .myForm input[type="email"], .myForm textarea{
+	padding:8px;
+	width:100%;
+}
+
+/*Styling for the submit button only.
+.myForm input[type="submit"]{
+	Background is dark gray
+	background-color: #333;
+	Text color is white
+	color:#fff;
+	Top/bottom 10px, left/right 15 px
+	padding:10px 15px;
+	No border
+	border:none;
+}*/
+	
+.block{
+	float:left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	/*Makes sure to apply things like border, padding, etc
+	into the width above, so that nothing gets pushed
+	below anything when there is not enough room*/
+	box-sizing: border-box;
+
+}
+
+/*main-block is an id, use #*/
+#main-block{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 30px;
+	/*Allows us to position other things relative to this.
+	Exp below: h1 is position relative to this box*/;
+	position: relative;
+	background-image: url('images/p-box-image.jpg');
+	background-repeat: no-repeat;
+	/*Can position background in percentages, pxls, or words
+	background-position: 100px 200px;*/
+	background-position: center center;
+}
+
+.p-box h1{
+	position: absolute;
+	/*Positioned 100px from the top of the border*/
+	top: 100px;
+	/*Positioned 200px from the left of the border*/
+	left: 200px;
+}
+
+.p-box h2{
+	position: absolute;
+	/*Positioned 40px from bottom of border*/
+	bottom: 40px;
+	/*Positioned 100px from right of border*/
+	right: 100px;
+}
+
+.fix-me{
+	/*Will always be positioned 400px from top of browser*/
+	position: fixed;
+	top: 400px;
+}
+
+/*First element in list will be red*/
+.myList li:first-child{
+	background: red;
+}
+
+/*Last element in list will be blue*/
+.myList li:last-child{
+	background: blue;
+}
+
+/*5th item in list will be yellow*/
+.myList li:nth-child(5){
+	background: yellow;
+}
+
+/*All even numbered elements will be gray*/
+.myList li:nth-child(even){
+	background: grey;
+}
