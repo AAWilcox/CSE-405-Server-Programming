@@ -3,7 +3,6 @@
 <br>By Alyssa Wilcox</p>
 <br/>
 <h2>About</h2>
-
 This repository is meant to hold all course assignments for CSE 405. In addition to course assignments, crash courses for HTML5, CSS3, and JavaScript are included as resources and references for future projects.
 
 <h2>Course Information</h2>
