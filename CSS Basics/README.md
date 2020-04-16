@@ -1,7 +1,7 @@
 <h1 align="center">CSS Basics</h1>
 
 <h2>About</h2>
-This folder includes a cheatsheet of CSS concepts and an example website. Both the cheatsheet and the website example are based on YouTube tutorials by Traversy Media.
+This folder includes a cheatsheet of CSS concepts, an example website that uses CSS concepts found in the cheatsheet, and notes on CSS basics. All content is based on a CSS Crash Course on YouTube by Traversy Media.
 
 <h2>Key Learnings</h2>
 
