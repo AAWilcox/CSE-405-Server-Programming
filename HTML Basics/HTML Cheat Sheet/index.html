@@ -1,0 +1,216 @@
+<!DOCTYPE html>	<!-- Official doctype for HTML5 -->
+<html>
+
+	<head>	<!-- Beginning of head -->
+	
+		<title>HTML Cheat Sheet</title>	<!-- Page title -->
+		
+	</head>	<!-- End of head --> 
+	
+	<body>	<!-- Beginning of body -->
+	
+		<!-- Link to blog -->
+		<a href="blog.html">Go to blog</a>
+		<hr>
+		
+		<!-- Headings -->
+		<!-- Can further change the font and size of text in CSS -->
+		<h1>Heading One</h1>	<!-- Biggest heading there is -->
+		<h2>Heading Two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+		
+		<!-- Paragraph --> 
+		<p>
+			The FitnessGram Pacer Test is a multistage aerobic capacity test 
+			that progressively gets <strong>more difficult as it continues</strong>. The 20 
+			meter pacer test will begin in 30 seconds. Line up at the start. 
+			The running speed starts slowly but gets faster each minute after 
+			you hear this signal bodeboop. A sing lap should be completed every 
+			time you hear this sound. ding Remember to run in a straight line and 
+			run as long as possible. The second time you fail to complete a lap 
+			before the sound, your test is over. The test will begin on the word 
+			start. On your mark. <em>Get ready!… Start.</em>
+		</p>
+		<p>
+			'Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. 
+			It's not a story the Jedi would tell you. <a href="http://starwars.fandom.com
+			/wiki/Sith/Legends" target="_blank">It's a Sith legend.</a> Darth Plagueis 
+			was a Dark Lord of the Sith, so powerful and so wise he could use the Force to 
+			influence the midichlorians to create life... He had such a knowledge of the dark 
+			side that he could even keep the ones he cared about from dying. The dark side of 
+			the Force is a pathway to many abilities some consider to be unnatural. He became so 
+			powerful... the only thing he was afraid of was losing his power, which eventually, 
+			of course, he did. Unfortunately, he taught his apprentice everything he knew, then 
+			his apprentice killed him in his sleep. It's ironic he could save others from death, 
+			but not himself.' - Sheev Palpatine
+		</p>
+		
+		<!-- Lists -->
+		<ul>	<!-- Unordered List --> 
+			<li>List Item 1</li>	<!-- Every list element needs li tag -->
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+		
+		<ol>	<!-- Ordered List --> 
+			<li>List Item 1</li>	<!-- Every list element needs li tag -->
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>	
+		</ol>
+		
+		<!-- Table -->
+		<table>
+		
+			<!-- Table Head -->
+			<thead>	
+			
+				<!-- Table Row -->
+				<tr>	
+					<th>Name</th>	<!-- Table Head for the Table Row -->
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+				
+			</thead>
+			
+			<!-- Table Body -->
+			<tbody>	
+			
+				<!-- Table Row -->
+				<tr>
+					<td>Alyssa Wilcox</td>	<!-- Table Data for the Table Row -->
+					<td>awilcoxm42@gmail.com</td>
+					<td>21</td>
+				</tr>
+				
+				<!-- Table Row -->
+				<tr>
+					<td>Alex Mammoth</td>	<!-- Table Data for the Table Row -->
+					<td>4AMammoth@gmail.com</td>
+					<td>23</td>
+				</tr>
+				
+				<!-- Table Row -->
+				<tr>
+					<td>David Allen</td>	<!-- Table Data for the Table Row -->
+					<td>generalD98@gmail.com</td>
+					<td>21</td>
+				</tr>
+				
+			</tbody>
+		</table>
+		
+		<br>	<!-- Break -->
+		<hr>	<!-- Horizontal Rule -->
+		<br>
+		
+		<!-- Forms -->
+		<form action="process.php" method="POST">
+		
+			<div>
+				<label>First Name</label>
+				<input type="text" name="firstName"
+				placeholder="Enter first name">
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Age:</label>
+				<input type="number" name ="age" value="30">
+			</div>
+			
+			<br>
+			
+			<div>
+				<label>Birthday:</label>
+				<input type="date" name="birthday">
+			</div>
+			
+			<br>
+			
+			<!-- Submits the form to process.php -->
+			<input type="submit" name="submit" value="Submit">
+			
+		</form>
+		
+		<!-- Button outside of form -->
+		<!-- Since it it outside the form, it will do nothing
+		Need JavaScript for the button to do anything -->
+		<button>Click Me</button>
+		
+		<br>
+		
+		<!-- Image -->
+		
+		<!-- Image is in same folder as HTML file -->
+		<!-- alt is used to display text when image is not found -->
+		<!-- width = 200 pixels, height is set to auto -->
+		<img src="sample.jpg" alt="My Sample Image"
+		width="200"> 
+		
+		<br>
+		
+		<!-- Wrap link around image -->
+		<a href="images/hamster.jpg" target="_blank">
+			<!-- Image is not in same folder as HTML file -->
+			<img src="images/hamster.jpg" alt="My Sample Image"
+			width="200" height = "100">
+		</a>
+		
+		<!-- Quotations -->
+		
+		<!-- Blockquote -->
+		<blockquote cite="http://goodreads.com">
+			According to all known laws of aviation, there is no way that a bee
+			should be able to fly. Its wings are too small to get its fat little 
+			body off the ground. ... Because bees don't care what humans think is 
+			impossible.
+		</blockquote>
+		
+		<!-- Abreviation -->
+		<p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+		
+		<!-- Cite -->
+		<p><cite>HTML crash course</cite> by Brad Traversy</p>
+		
+	</body>	<!-- End of body -->
+
+</html>
