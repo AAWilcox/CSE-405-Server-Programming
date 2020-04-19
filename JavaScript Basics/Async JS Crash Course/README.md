@@ -12,4 +12,4 @@ All content is based on a Async JS Crash Course on YouTube by Traversy Media.
 
 <h2>Credits</h2>
 
-- JavaScript Crash Course For Beginners by Traversy Media: https://youtu.be/PoRJizFvM7s
+- Async JS Crash Course - Callbacks, Promises, Async Await by Traversy Media: https://youtu.be/PoRJizFvM7s
