@@ -11,5 +11,5 @@ All content is based on a HTTP Crash Course on YouTube by Traversy Media.
 
 <h2>Credits</h2>
 
-- JavaScript Crash Course For Beginners by Traversy Media: https://youtu.be/iYM2zFP3Zn0
+- HTTP Crash Course and Exploration by Traversy Media: https://youtu.be/iYM2zFP3Zn0
 
