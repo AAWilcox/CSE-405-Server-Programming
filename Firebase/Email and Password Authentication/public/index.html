@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Authentication Example</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.2/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.2/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="register">
+        <h2 class="header">Register</h2>
+        <form id="register-form" method="GET">
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" id="register_email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password: </label>
+            <input type="password" id="register_password" value="123">
+          </div>
+          <button id="register_submit_button" type="submit">Register!</button>
+          <div id="input_validation"></div>
+        </form>
+      </div>
+
+      <div class="login">
+        <h2 class="header">Log In</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email: </label>
+            <input type="email" class="form-control email"/>
+          </div>
+          <div class="form-group">
+            <label for="password">Password: </label>
+            <input type="password" class="form-label password"/>
+          </div>
+          <button class="btn btn-primary">Login</button>
+        </form>
+      </div>
+
+      <div class="todo">
+        <h2 class="header">To Do</h2>
+        <form>
+          <div class="form-group">
+            <label for="text">To Do: </label>
+            <input type="text" class="form-control text"/>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+
+    </div>
+
+  </body>
+</html>

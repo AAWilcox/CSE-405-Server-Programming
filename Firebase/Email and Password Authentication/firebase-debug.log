@@ -1,0 +1,29 @@
+[debug] [2020-05-01T20:57:27.667Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T20:57:27.669Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SYX\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-05-01T20:57:27.669Z] CLI Version:   8.1.1
+[debug] [2020-05-01T20:57:27.669Z] Platform:      win32
+[debug] [2020-05-01T20:57:27.669Z] Node Version:  v12.16.1
+[debug] [2020-05-01T20:57:27.671Z] Time:          Fri May 01 2020 13:57:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2020-05-01T20:57:27.671Z] ----------------------------------------------------------------------
+[debug] [2020-05-01T20:57:27.671Z] 
+[debug] [2020-05-01T20:57:27.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-01T20:57:27.683Z] > authorizing via signed-in user
+[debug] [2020-05-01T20:57:27.683Z] [iam] checking project authentication-example-bcb4f for permissions ["firebase.projects.get"]
+[debug] [2020-05-01T20:57:27.685Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-01T20:57:27.686Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-05-01T20:57:27.857Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 20:57:26 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T20:57:27.864Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/authentication-example-bcb4f:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-05-01T20:57:28.214Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 20:57:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=225","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-05-01T20:57:28.215Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/authentication-example-bcb4f  
+ 
+[debug] [2020-05-01T20:57:28.461Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 20:57:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'E:\School\14.) Spring 2020\CSE 405 - Server Programming\Crash Courses\Firebase\Authentication Example'...
+[info] 
+[debug] [2020-05-01T20:57:28.464Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/authentication-example-bcb4f/webApps/-/config  
+ 
+[debug] [2020-05-01T20:57:28.823Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 01 May 2020 20:57:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
