@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to CSE 405</title>
+
+    <!-- Order matters here -->
+    <!-- Load libraries first before initializing-->
+    <script defer src="/__/firebase/7.14.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="a.js"></script>
+  </head>
+
+  <body>
+    <script>console.log('(2) in the body')</script>
+    
+    <div id="a_msg">Loading...</div>
+
+    <div id="a_logging_in" style="display: none">
+      <div>
+        Email: <input id="a_email" type="text" value="006861225@coyote.csusb.edu"></input>
+        <input id="a_send_link_btn" type="submit" value="Send Login Link"></input>
+      </div>
+    </div>
+
+    <div id="a_logged_in" style="display: none">
+      <input id="a_logout_btn" type="submit" value="Log Out">
+      Hi!
+    </div>
+  </body>
+</html>
