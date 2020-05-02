@@ -15,4 +15,5 @@ This project is still a work in progress.
 
 <h2>Credits</h2>
 
+- Firebase guide on password/email authentication: https://firebase.google.com/docs/auth/web/password-auth
 - Firebase Basic Email/Password Authentication by Spencer Charest: https://youtu.be/qZzKKu7so0Y
