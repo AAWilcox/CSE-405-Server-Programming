@@ -11,8 +11,8 @@ This project is still a work in progress.
 - Emulating firebase on a user's client
 - Registering with an email and password
 - Logging in with an email and password
-- Saving data to a database
-- Removing data from a database
+- Saving data to Firestore's Realtime Database
+- Removing data from Firestore's Realtime Database
 
 <h2>Credits</h2>
 
