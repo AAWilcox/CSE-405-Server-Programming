@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to CSE 405</title>
+
+    <!-- Order matters here -->
+    <!-- Load libraries first before initializing-->
+    <script defer src="/__/firebase/7.14.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.14.1/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer src="a.js"></script>
+    <script defer src="b.js"></script>
+  </head>
+
+  <body>
+    <script>console.log('(2) in the body')</script>
+    
+    <div id="a_msg">Loading...</div>
+
+    <div id="a_logging_in" style="display: none">
+      <div>
+        Email: <input id="a_email" type="text" value="006861225@coyote.csusb.edu"/>
+        <input id="a_send_link_btn" type="submit" value="Send Login Link"/>
+      </div>
+    </div>
+
+    <div id="a_logged_in" style="display: none">
+      <input id="a_logout_btn" type="submit" value="Log Out"/>
+
+      <div id="b_view" style="display: none">
+        <div id="b_view_note">I will be replaced</div>
+        <input id="b_view_edit_btn" type="submit" value="Edit Note"/>
+      </div>
+
+      <div id="b_edit" style="display: none">
+        <textarea id="b_edit_note" rows="5" columns="40">This should not be here</textarea>
+        <input id="b_edit_save_btn" type="submit" value="Save Changes"/>
+        <br>
+        <input id="b_edit_cancel_btn" type="submit" value="Cancel"/>
+      </div>
+    </div>
+
+  </body>
+</html>
