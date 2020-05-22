@@ -12,3 +12,6 @@ This application focuses on authentication and database functionality using Fire
 - Saving data to Firestore
 - Removing data from Firestore
 - Firestore rules
+
+<h2>Application Link</h2>
+https://authentication-example-bcb4f.web.app/
