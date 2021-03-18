@@ -22,7 +22,7 @@ This repository is meant to hold all course assignments for CSE 405. In addition
 6. *Web App*. Create a Web application that utilizes the above technologies.
 
 <h2>Project status</h2>
-Under construction
+Completed
 
 <h2>Credits</h2>
 
