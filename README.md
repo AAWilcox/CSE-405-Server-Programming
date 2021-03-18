@@ -1,4 +1,4 @@
-<h1 align="center">CSE 405</h1>
+<h1 align="center">CSE 405 - Server Programming</h1>
 <p align="center"><strong>Remote GitHub Repository for CSE 405 Course Assignments</strong>
 <br>By Alyssa Wilcox</p>
 <br/>
