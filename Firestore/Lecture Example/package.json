@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "@firebase/testing": "^0.19.4",
-    "mocha": "^7.1.2"
+    "mocha": "^10.2.0"
   }
 }
